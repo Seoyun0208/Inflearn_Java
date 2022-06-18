@@ -1,6 +1,6 @@
 package hijava.practice;
 
-public class ConstLiter {
+public class ConstantLiteral {
 	public static final int STU_NUM = 10;
 
 	public static void main(String[] args) {
