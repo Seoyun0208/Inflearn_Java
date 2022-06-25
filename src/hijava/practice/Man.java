@@ -48,6 +48,11 @@ public class Man {
 		this.amount = amount;
 	}
 
+	@Override
+	public String toString() {
+		return this.name + "님의 잔액은 " + this.amount + "원입니다.";
+	}
+
 	public static void main(String[] args) {
 		Man hong = new Man("Hong");
 		Man john = new Man("John");
@@ -60,6 +65,8 @@ public class Man {
 		
 		System.out.println("hong = " + hong.getAmount());
 		System.out.println("john = " + john.getAmount());
+		System.out.println(hong.toString());
+		System.out.println(john.toString());
 		
 	}
 
